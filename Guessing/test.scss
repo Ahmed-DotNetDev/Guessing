@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: aliceblue;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    h1{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    p{
+        font-size: 2rem;
+    }
+    label{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+    input{
+        margin-bottom: 4px;
+        border:2px solid red ;
+        height: 25px;
+        border-radius: 2px;
+
+        &:focus{
+            border: forestgreen;
+        }
+    }
+    button{
+        height: 30px;
+        background-color: #ffc107;
+        color: white;
+        border-radius: 33px;
+        outline: none;
+        border:1px solid black;
+        font-size: 1.3rem;
+        font-weight: 800;
+        &:hover{
+        background-color: #c09105;
+        transition: .5s;
+        }
+    }
+}
+
